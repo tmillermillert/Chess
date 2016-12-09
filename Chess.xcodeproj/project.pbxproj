@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7D56781DFB4E92008FBE62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB7D566C1DFB4E92008FBE62 /* main.cpp */; };
+		DB7D56791DFB4E92008FBE62 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DB7D56761DFB4E92008FBE62 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB7D56561DFB4E0A008FBE62 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB7D56581DFB4E0A008FBE62 /* Chess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chess; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7D56621DFB4E92008FBE62 /* bug.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bug.test; sourceTree = SOURCE_ROOT; };
+		DB7D56631DFB4E92008FBE62 /* enpassant.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enpassant.test; sourceTree = SOURCE_ROOT; };
+		DB7D56641DFB4E92008FBE62 /* enpassant2.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enpassant2.test; sourceTree = SOURCE_ROOT; };
+		DB7D56651DFB4E92008FBE62 /* enpassant3.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enpassant3.test; sourceTree = SOURCE_ROOT; };
+		DB7D56661DFB4E92008FBE62 /* game.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = game.dat; sourceTree = SOURCE_ROOT; };
+		DB7D56671DFB4E92008FBE62 /* in_check.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in_check.test; sourceTree = SOURCE_ROOT; };
+		DB7D56681DFB4E92008FBE62 /* in_check2.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in_check2.test; sourceTree = SOURCE_ROOT; };
+		DB7D56691DFB4E92008FBE62 /* king_attack_piece.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = king_attack_piece.test; sourceTree = SOURCE_ROOT; };
+		DB7D566A1DFB4E92008FBE62 /* king_attack_protected_piece.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = king_attack_protected_piece.test; sourceTree = SOURCE_ROOT; };
+		DB7D566B1DFB4E92008FBE62 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		DB7D566C1DFB4E92008FBE62 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		DB7D566D1DFB4E92008FBE62 /* moving_into_check.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moving_into_check.test; sourceTree = SOURCE_ROOT; };
+		DB7D566E1DFB4E92008FBE62 /* moving_out_of_check_by_attacking.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moving_out_of_check_by_attacking.test; sourceTree = SOURCE_ROOT; };
+		DB7D566F1DFB4E92008FBE62 /* moving_out_of_check_by_blocking.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moving_out_of_check_by_blocking.test; sourceTree = SOURCE_ROOT; };
+		DB7D56701DFB4E92008FBE62 /* moving_pawn1.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moving_pawn1.test; sourceTree = SOURCE_ROOT; };
+		DB7D56711DFB4E92008FBE62 /* moving_pawn2.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moving_pawn2.test; sourceTree = SOURCE_ROOT; };
+		DB7D56721DFB4E92008FBE62 /* player1castling.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = player1castling.test; sourceTree = SOURCE_ROOT; };
+		DB7D56731DFB4E92008FBE62 /* player1castling2.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = player1castling2.test; sourceTree = SOURCE_ROOT; };
+		DB7D56741DFB4E92008FBE62 /* player1castling3.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = player1castling3.test; sourceTree = SOURCE_ROOT; };
+		DB7D56751DFB4E92008FBE62 /* player2castling.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = player2castling.test; sourceTree = SOURCE_ROOT; };
+		DB7D56761DFB4E92008FBE62 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		DB7D56771DFB4E92008FBE62 /* start_in_check.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start_in_check.test; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7D56551DFB4E0A008FBE62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7D564F1DFB4E0A008FBE62 = {
+			isa = PBXGroup;
+			children = (
+				DB7D565A1DFB4E0A008FBE62 /* Chess */,
+				DB7D56591DFB4E0A008FBE62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7D56591DFB4E0A008FBE62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7D56581DFB4E0A008FBE62 /* Chess */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7D565A1DFB4E0A008FBE62 /* Chess */ = {
+			isa = PBXGroup;
+			children = (
+				DB7D56621DFB4E92008FBE62 /* bug.test */,
+				DB7D56631DFB4E92008FBE62 /* enpassant.test */,
+				DB7D56641DFB4E92008FBE62 /* enpassant2.test */,
+				DB7D56651DFB4E92008FBE62 /* enpassant3.test */,
+				DB7D56661DFB4E92008FBE62 /* game.dat */,
+				DB7D56671DFB4E92008FBE62 /* in_check.test */,
+				DB7D56681DFB4E92008FBE62 /* in_check2.test */,
+				DB7D56691DFB4E92008FBE62 /* king_attack_piece.test */,
+				DB7D566A1DFB4E92008FBE62 /* king_attack_protected_piece.test */,
+				DB7D566B1DFB4E92008FBE62 /* LICENSE */,
+				DB7D566C1DFB4E92008FBE62 /* main.cpp */,
+				DB7D566D1DFB4E92008FBE62 /* moving_into_check.test */,
+				DB7D566E1DFB4E92008FBE62 /* moving_out_of_check_by_attacking.test */,
+				DB7D566F1DFB4E92008FBE62 /* moving_out_of_check_by_blocking.test */,
+				DB7D56701DFB4E92008FBE62 /* moving_pawn1.test */,
+				DB7D56711DFB4E92008FBE62 /* moving_pawn2.test */,
+				DB7D56721DFB4E92008FBE62 /* player1castling.test */,
+				DB7D56731DFB4E92008FBE62 /* player1castling2.test */,
+				DB7D56741DFB4E92008FBE62 /* player1castling3.test */,
+				DB7D56751DFB4E92008FBE62 /* player2castling.test */,
+				DB7D56761DFB4E92008FBE62 /* README.md */,
+				DB7D56771DFB4E92008FBE62 /* start_in_check.test */,
+			);
+			path = Chess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB7D56571DFB4E0A008FBE62 /* Chess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7D565F1DFB4E0A008FBE62 /* Build configuration list for PBXNativeTarget "Chess" */;
+			buildPhases = (
+				DB7D56541DFB4E0A008FBE62 /* Sources */,
+				DB7D56551DFB4E0A008FBE62 /* Frameworks */,
+				DB7D56561DFB4E0A008FBE62 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chess;
+			productName = Chess;
+			productReference = DB7D56581DFB4E0A008FBE62 /* Chess */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7D56501DFB4E0A008FBE62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Marcus Tanner Miller";
+				TargetAttributes = {
+					DB7D56571DFB4E0A008FBE62 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB7D56531DFB4E0A008FBE62 /* Build configuration list for PBXProject "Chess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB7D564F1DFB4E0A008FBE62;
+			productRefGroup = DB7D56591DFB4E0A008FBE62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7D56571DFB4E0A008FBE62 /* Chess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7D56541DFB4E0A008FBE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7D56791DFB4E92008FBE62 /* README.md in Sources */,
+				DB7D56781DFB4E92008FBE62 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB7D565D1DFB4E0A008FBE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB7D565E1DFB4E0A008FBE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB7D56601DFB4E0A008FBE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB7D56611DFB4E0A008FBE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7D56531DFB4E0A008FBE62 /* Build configuration list for PBXProject "Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7D565D1DFB4E0A008FBE62 /* Debug */,
+				DB7D565E1DFB4E0A008FBE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7D565F1DFB4E0A008FBE62 /* Build configuration list for PBXNativeTarget "Chess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7D56601DFB4E0A008FBE62 /* Debug */,
+				DB7D56611DFB4E0A008FBE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7D56501DFB4E0A008FBE62 /* Project object */;
+}
